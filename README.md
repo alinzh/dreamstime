@@ -8,7 +8,7 @@
 
 ## Overview
 
-Dreamstime streamlines and automates interactions with the Dreamstime photo bank, enabling users to efficiently manage login processes and prepare for simplified image uploads. By reducing manual effort and enhancing privacy, it offers a convenient solution for frequent users seeking a more seamless photo bank experience.
+Dreamstime simplifies and streamlines user interactions with the Dreamstime photo bank by automating login and easing image management tasks. This tool enhances convenience, saves time, and improves privacy for frequent users, offering a more efficient experience for accessing and preparing images on the platform.
 
 ---
 
@@ -16,15 +16,16 @@ Dreamstime streamlines and automates interactions with the Dreamstime photo bank
 
 - [Core features](#core-features)
 - [Installation](#installation)
+- [Examples](#examples)
 - [Contributing](#contributing)
 - [Citation](#citation)
 
 ---
 ## Core features
 
-1. **Automated Login to Dreamstime**: Enables automated login to the Dreamstime photo bank using user credentials provided in a configuration file, with support for handling user-agent randomization.
-2. **Selenium Webdriver Integration**: Utilizes Selenium WebDriver to automate browser actions such as navigating the website, filling out forms, and handling web elements during login and upload processes.
-3. **Configurable Credentials**: Allows user login and password to be specified in a YAML configuration file, simplifying credential management and automation setup.
+1. **Automated Login to Dreamstime**: Enables users to automatically log in to the Dreamstime photo bank by filling in credentials and handling login flows using Selenium WebDriver with randomized user agents for privacy and reduced detection.
+2. **Configurable Credential Management**: Allows users to securely provide their login and password via a YAML configuration file, simplifying setup and keeping sensitive information external to the script.
+3. **Selenium WebDriver Integration**: Utilizes Selenium WebDriver to automate browser interactions, such as navigating to Dreamstime pages, filling forms, clicking login buttons, and simulating human behavior.
 
 ---
 
@@ -43,6 +44,12 @@ git clone https://github.com/alinzh/dreamstime
 ```sh
 cd dreamstime
 ```
+
+---
+
+## Examples
+
+Examples of how this should work and how it should be used are available [here](https://github.com/alinzh/dreamstime/tree/master/examples).
 
 ---
 

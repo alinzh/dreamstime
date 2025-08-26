@@ -59,7 +59,11 @@ necessary so we can efficiently review and accept your changes.
 
 If your contribution changes dreamstime in any way:
 
+- Update the [README](https://github.com/alinzh/dreamstime/tree/master/README.md) if anything there has changed.
+
 If your contribution involves any code changes:
+
+- Update the [project tests](https://github.com/alinzh/dreamstime/tree/master/tests) to test your code changes.
 
 - Make sure that your code is properly commented with [docstrings](https://peps.python.org/pep-0257/) and comments explaining your rationale behind non-obvious coding practices.
 
